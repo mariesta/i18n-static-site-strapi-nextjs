@@ -2,18 +2,18 @@
 
 # dependencies
 /nextjs-frontend/node_modules
-/.pnp
+/nextjs-frontend/.pnp
 .pnp.js
 
 # testing
-/coverage
+/nextjs-frontend/coverage
 
 # next.js
-/.next/
-/out/
+/nextjs-frontend/.next/
+/nextjs-frontend/out/
 
 # production
-/build
+/nextjs-frontend/build
 
 # misc
 .DS_Store
@@ -26,10 +26,10 @@ yarn-error.log*
 .pnpm-debug.log*
 
 # local env files
-.env.local
-.env.development.local
-.env.test.local
-.env.production.local
+/nextjs-frontend/.env.local
+/nextjs-frontend/.env.development.local
+/nextjs-frontend/.env.test.local
+/nextjs-frontend/.env.production.local
 
 # vercel
-.vercel
+/nextjs-frontend/.vercel
